@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.head1{
+    margin-top: 18px;
+}
+.box
+{
+    width: 180px;
+    height: 80px;
+    background-color: #8B0000;
+    -ms-transform: rotate(20deg); 
+    transform: rotate(320deg);
+    float:left;
+      
+}
+.head{
+    text-decoration: underline;
+    margin-top: 2px;
+}
+.header{
+    background-color: rgb(0, 119, 255);
+    text-align:center;
+    padding: 40px;
+    color: aliceblue;
+}
+.todo{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.para{
+    margin-top: 25px;
+}
+.false{
+    text-decoration: line-through;
+}
+.container{
+    background-color: rgb(211, 208, 208);
+    padding: 10px;
+    max-height: 80vh;
+    overflow: scroll;
+}
+input{
+    margin-left: 20px;
+    width: 95%;
+    border:5px solid rgb(0, 119, 255);
+}
+input::placeholder{
+    padding: 20px;
+}
+.right{
+    float: right;
+}
+label{
+    margin-left: 20px;
+}
+.com{
+    background-color:  rgb(0, 119, 255);
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+}
+.del{
+    color: red;
+    border:1px solid gray;
+    border-radius: 60%;
+    padding:5px;
+}
